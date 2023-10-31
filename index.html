@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worm Robot - Homepage</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Creepster&family=Pontano+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <img src="images/wurbylogotext.png" alt="Wurby Logo navbar">
+            <a href="#introductie">Introductie</a>
+            <a href="#design">Design</a>
+            <a href="#product">Product</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <header>
+            <section>
+                <div class="header-content">
+                    <h1>Wurby</h1>
+                    <p>De nieuwe generatie Furby</p>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="intro-section" id="introductie">
+                <div class="intro-container">
+                    <h1>Introductie</h1>
+                    <h2>Wat is een Wurby?</h2>
+                    <p>Een Wurby is een digitaal huisdier die bepaalde functies heeft die je kan gebruiken om jou te helpen in je dagelijkse bezigheden. Het heeft een schattig uiterlijk van een Worm met leuke wieltjes.</p>
+                    <h2>Wat doet een Wurby?</h2>
+                    <p>Een Wurby heeft 2 functies, de eerste is een wekker en je kan zelf bepalen voor hoelang je wilt slapen en daarna maakt Wurby een leuk geluidje. De ander is een Alarm/Pauze methode dat je een uurtje kan werken en daarna een 15 min pauze kan nemen.</p>
+                </div>
+            </section>
+            <section class="design-section" id="design">
+                <div class="design-container">
+                    <h1>Design</h1>
+                    <h2>Hoe kwamen we op het idee?</h2>
+                    <p>We wouden graag iets maken wat mensen kon laten focussen op iets, of wat je zou helpen om makkelijker te kunnen opstaan uit bed. Toen kwamen we op het idee om de Worm te maken met deze 2 functies die het iets leuker maakt om deze activiteiten te doen.</p>
+                    <h2>Eerste designs</h2>
+                    <p>We wouden dus graag de wielen toevoegen aan de Worm, maar we hadden geen idee hoe we alle 8 de wielen zouden kunnen connecten met de robot van de Worm. Toen uiteindelijk kregen we het idee om alleen de 2 achterste wielen te connecten met de robot, en dat de rest een soort illusie is. Hierdoor hebben we genoeg plek voor op de Robot en kunnen we de Worm ook laten rijden!</p>
+                    <img class="imageDesign" src="images/firstDesign.png">
+                    <p>In de foto hierboven zie je links het eerste model van de rups, waar je dus de 8 wielen ziet en het hoofd. In de rechter zie je het idee van hoe we het wouden connecten met alle wielen, maar uiteindelijk zijn we toch voor de 2 achterste wielen gegaan.</p>
+                </div>
+            </section>
+            <section class="product-section" id="product">
+                <div class="product-container">
+                    <h1>Product</h1>
+                    <h2>1e functie - Wekker</h2>
+                    <p>De eerste functie die je met de Wurby kan doen is dat je een wekker kan zetten, als je 1x kort op de linker knop klikt komt er 1 uur bij en als je dat nog een keer doet gebeurt dat nog een keer. Als je dan lang de knop ingedrukt houdt, gaat de wekker lopen. Uiteindelijk als het tijd is om op te staan, gaat de Wurby af met een leuk geluidje.</p>
+                    <h2>2e functie - Pauze</h2>
+                    <p>De tweede functie die je kan doen met de Wurby is een Pauze wekker. Dus als je erop klikt gaat er een alarm af voor 1 uur, en daarna gaat er een 15 min alarm in zodat je in die tijd een pauze kan nemen. Zodat je dus in het uur gefocust kan werken, en dan in de 15 min pauze een korte break kan nemen en even alles loslaten.</p>
+                </div>
+            </section>
+            <section class="contact-section" id="contact">
+                <div class="contact-container">
+                    <h1>Contact</h1>
+                    <h2>Wil je contact met ons opnemen? Doe dat hier!</h2>
+                    <form>
+                        <section class="form-section">
+                            <div class="form-div">
+                                <label for="fname">First name</label>
+                                <input type="text" name="fname" id="fname" placeholder="Enter your firstname..."
+                                    required>
+                            </div>
+                            <div class="form-div">
+                                <label for="lname">Last name</label>
+                                <input type="text" name="lname" id="lname" placeholder="Enter your lastname..."
+                                    required>
+                            </div>
+                            <div class="form-div">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" placeholder="Enter your email..." required>
+                            </div>
+                            <div class="form-div">
+                                <label for="city">City</label>
+                                <input type="text" name="city" id="city" placeholder="Enter your city in..." required>
+                            </div>
+                            <div class="form-div">
+                                <label for="birthdate">Date of Birth</label>
+                                <input type="date" name="birthdate" id="birthdate" required>
+                            </div>
+                            <div class="form-div">
+                                <label for="textarea">Question or other info?</label>
+                                <textarea name="message" rows="8" cols="30" required></textarea>
+                            </div>
+                            <p>Sign up for the newsletter?</p>
+                            <section class="news-form">
+                                <input type="radio" id="yes" name="newsletter" value="yes">
+                                <label for="yes">Yes</label>
+
+                                <input type="radio" id="no" name="newsletter" value="no">
+                                <label for="no">No</label>
+                            </section>
+                            <div class="form-div-checkbox">
+                                <input type="checkbox" id="terms" name="terms" value="terms" required>
+                                <label for="terms">I agree to the terms and conditions</label>
+                            </div>
+                        </section>
+                        <section class="form-button">
+                            <button href="#" type="submit">Send</button>
+                        </section>
+                    </form>
+                </div>
+            </section>
+            <section class="KoopNuSection">
+                <div>
+                    <a href="koop.html"><img src="images/koopNu.png" alt="Koop Nu Wurby"></a>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
